@@ -14,11 +14,11 @@ public class Juario {
         int age;
         
         System.out.print("Enter your name: ");
-        name = sc.nextLine()
+        name = sc.nextLine();
         System.out.print("Enter your age: ");
         age = sc.nextInt();
         
-        System.out.println("/n\Hello "+name+" your age is"+age);
+        System.out.println("\nHello "+name+" Your age "+age);
         
         if(age >= 18){
             System.out.println("Votable");
